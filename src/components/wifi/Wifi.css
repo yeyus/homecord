@@ -1,0 +1,30 @@
+.WifiManagement {
+    display: flex;
+    flex-direction: row;
+}
+
+.wifi {
+    margin-left: 22px;
+}
+
+.wifi-name {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+}
+
+.wifi-status {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+}
+
+.wifi-status:before {
+    content: "\A";
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    background: #61DF88;
+    border-radius: 50%;
+    margin-right: 8px;
+}

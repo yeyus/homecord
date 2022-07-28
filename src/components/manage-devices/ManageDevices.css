@@ -1,0 +1,31 @@
+.ManageDevices {
+    padding: 0;
+    margin: 0;
+}
+
+.Device-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    background-color: var(--background-primary);
+    margin-bottom: 7px;
+    padding: 16px 20px;
+    border-radius: 8px;
+}
+
+.Device-item img {
+    margin-right: 16px;
+}
+
+.Device-item.active img {
+    margin-right: 16px;
+}
+
+.Device-item.active {
+    background-color: rgba(61, 64, 106, 0.5);
+}
+
+.Device-item .switch {
+    margin-left: auto;
+}

@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 
+import UserProfile from '../user-profile';
+
 import './Header.css';
 
 import home from './home.svg';

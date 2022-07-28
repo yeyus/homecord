@@ -1,0 +1,48 @@
+.Appliances {
+    padding: 0;
+    margin: 0;
+}
+
+.Appliance-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 16px 0;
+}
+
+.Appliance-item:not(:last-child) {
+    border-bottom: 2px solid #36393F;
+}
+
+.Appliance-item:last-child {
+    padding-bottom: 0;
+}
+
+.Appliance-item:first-child {
+    padding-top: 0;
+}
+
+.Appliance-status {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    margin-left: auto;
+    border-radius: 46px;
+    padding: 4px 16px;
+}
+
+.green {
+    color: #61DF88;
+    background-color: #355725;
+}
+
+.red {
+    color: #E27C7C;
+    background-color: #773434;
+}
+
+.burple {
+    color: #AFB6FF;
+    background-color: #3D406A;
+}

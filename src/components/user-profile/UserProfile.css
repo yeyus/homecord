@@ -1,0 +1,26 @@
+.UserProfile {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6px 10px;
+}
+
+.UserProfile-image {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.UserProfile-image img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.UserProfile-name {
+    margin-top: 4px;
+}

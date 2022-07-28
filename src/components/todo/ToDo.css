@@ -1,0 +1,44 @@
+.ToDo {
+    padding: 0;
+    margin: 0;
+}
+
+.ToDo-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 16px 0;
+}
+
+.ToDo-item:not(:last-child) {
+    border-bottom: 2px solid #36393F;
+}
+
+.ToDo-item:first-child {
+    padding-top: 0;
+}
+
+.ToDo-item .switch {
+    margin-left: auto;
+}
+
+.DoneSwitch {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: 2px solid #A3A6AA;
+    border-radius: 10px;
+    margin-left: auto;
+}
+
+.DoneSwitch img {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.DoneSwitch.active {
+    border: 0;
+    background-color: #5865F2;
+}

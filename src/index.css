@@ -29,6 +29,16 @@ body {
   font-weight: 400;
 }
 
+.tiny-button {
+  font-weight: 500;
+  border-radius: 46px;
+  border: 0;
+  color: #AFB6FF;
+  background-color: #3D406A;
+  padding: 4px 16px;
+  margin-top: 15px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

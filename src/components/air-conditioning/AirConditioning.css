@@ -1,0 +1,29 @@
+.AC {
+    display: flex;
+    flex-direction: row;
+}
+
+.AC-temp {
+    font-size: 32px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.AC-button {
+    width: 40px;
+    height: 40px;
+    background-color: var(--background-primary);
+    border: 0;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.AC-button>img {
+    height: 16px;
+    width: 16px;
+}
+
+.switch {
+    margin-left: auto;
+    margin-top: 10px;
+}

@@ -33,3 +33,23 @@
 .App-column {
   width: 100%;
 }
+
+.AddWidget {
+  margin-top: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #4F545C;
+  border-radius: 74px;
+  background: transparent;
+  color: #4F545C;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.AddWidget>img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
