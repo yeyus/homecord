@@ -1,0 +1,35 @@
+@font-face {
+  font-family: Inter;
+  src: url(/public/fonts/Inter-Medium.woff2);
+}
+
+@font-face {
+  font-family: Inter-Light;
+  src: url(/public/fonts/Inter-Light.woff2);
+}
+
+:root {
+  --background-primary: #36393F;
+  --font-color: #c5ced7;
+  --background-secondary: #2f3136; 
+}
+
+body {
+  margin: 0;
+  padding: 80px;
+  font-family: 'Inter', sans-serif;
+  color: var(--font-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-primary);
+}
+
+.light-font {
+  font-family: 'Inter-light', sans-serif;
+  font-weight: 400;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

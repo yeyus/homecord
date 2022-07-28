@@ -1,0 +1,22 @@
+.Widget {
+    display: block;
+    margin-top: 32px;
+}
+
+.Widget-label {
+    text-align: left;
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.Widget-contents {
+    padding: 20px;
+    box-shadow: 0px 5px 20px rgba(88, 101, 242, 0.05);
+    border-radius: 16px;
+    background-color: var(--background-secondary);
+}
